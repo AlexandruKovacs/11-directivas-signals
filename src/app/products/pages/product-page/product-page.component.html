@@ -15,6 +15,7 @@
     <div class="col-auto">
       <span customLabel
         [color]="color"
+        [errors]="productForm.get('name')?.errors"
       >Temporal</span>
     </div>
 
